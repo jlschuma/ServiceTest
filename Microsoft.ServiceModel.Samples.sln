@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.ServiceModel.Samples", "Microsoft.ServiceModel.Samples\Microsoft.ServiceModel.Samples.csproj", "{94164A50-8D5D-4479-BDA1-5086647E4B0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceTest", "ServiceTest\ServiceTest.csproj", "{09BAD4F9-4B93-43A0-94AA-5D9AEEDCF3DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A62A4B6F-0B23-4834-AF05-150379C7F0D4}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94164A50-8D5D-4479-BDA1-5086647E4B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94164A50-8D5D-4479-BDA1-5086647E4B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94164A50-8D5D-4479-BDA1-5086647E4B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94164A50-8D5D-4479-BDA1-5086647E4B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09BAD4F9-4B93-43A0-94AA-5D9AEEDCF3DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09BAD4F9-4B93-43A0-94AA-5D9AEEDCF3DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09BAD4F9-4B93-43A0-94AA-5D9AEEDCF3DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09BAD4F9-4B93-43A0-94AA-5D9AEEDCF3DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
